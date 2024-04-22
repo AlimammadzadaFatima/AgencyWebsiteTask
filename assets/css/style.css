@@ -44,18 +44,18 @@ header{
 }
 nav{
     height: 12vh;
-    /* background-color: #212529; */
-    background-color: transparent;
-    
-
+    background-color: #212529;
+    /* background-color: transparent; */
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
 }
 .nav-sec{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 12vh;
-    position: fixed;
-    left: 7.5%;
+   
 }
 .menu a{
     color: #fff;
